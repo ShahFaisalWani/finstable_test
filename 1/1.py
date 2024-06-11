@@ -12,7 +12,6 @@ for word in input_list:
   if word_len > longest_length:
     longest_length = word_len
   words.append((word, word_len))
-  
 
 answer = [(word,length) for  word, length in words if length == longest_length]
 
